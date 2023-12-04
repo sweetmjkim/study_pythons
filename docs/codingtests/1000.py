@@ -6,5 +6,3 @@
 # 출력
 # 첫째 줄에 A+B를 출력한다.
 
-first = "Hello World!"
-print("{}".format(first))

@@ -6,11 +6,12 @@
 
 # option) 단수 입력 받아 연산
 
-num_times = 0
-while num_timestables < 45 :
+num_timestable = 5 # 구구단 단수
+num_number = 0
+while num_number < 9 :
     pass
-    num_timestables = num_times * 5
-    print("{} * {}"= .format(num_times) (num_timestables))
+    num_number = num_number + 1
+    result = num_timestable * num_number
+    print("{} * {} = {}".format(int(num_timestable), int(num_number), int(result)))
     pass
-
 print("구구단 5단 완성!")

@@ -16,10 +16,10 @@ print(int(BMI))
 
 BMI
 if BMI >= 25 :
-    print("당신에 BMI 결과 {}로 비만이다.".format(int(BMI)))
-elif BMI > 22 : 
-    print("당신에 BMI 결과 {}로 과체중이다.".format(int(BMI)))
-elif BMI > 18 : 
-    print("당신에 BMI 결과 {}로 정상이다.".format(int(BMI)))
+    print("{}님에 BMI 결과 {}로 비만입니다.".format(str_name, (int(BMI))))
+elif BMI >= 23 : 
+    print("{}님에 BMI 결과 {}로 과체중입니다.".format(str_name, (int(BMI))))
+elif BMI >= 18 : 
+    print("{}님에 BMI 결과 {}로 정상입니다.".format(str_name, (int(BMI))))
 else : 
-    print("당신에 BMI 결과 {}로 저체중이다.".format(int(BMI)))
+    print("{}님에 BMI 결과 {}로 저체중입니다.".format(str_name, (int(BMI))))

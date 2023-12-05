@@ -27,8 +27,3 @@ print("출생년도 기준 내 나이 계산 : {}살".format(num_age))
 #
 3 4
 pass # 종료
-
-
-
-
-print("%s님의 BMI는 %.1lf 입니다." % (name, BMI))

@@ -28,4 +28,32 @@ numerics = [0, 1, 2, 3, 4]    # 5개수 값으로 이루어진 리스트
 for number in numerics :
     pass
     print("number : {}.". format(number+2))
+
+
+
+## 설문 답변 받기
+# 1. 컴퓨터 운영체제에 대한 선호도는 어떠신가요?            index 0
+# A. Windows B. macOS C. Linux D. Chrome OS E. 기타      index 1
+# 당신의 답변 : A
+# 2. 주로 사용하는 프로그래밍 언어는 무엇인가요?            index 2
+# A. Python B. Java C. JavaScript D. C++ E. 기타         index 3
+# 당신의 답변 : D
+# 3. 개발자에게 인기 있는 프로그래밍 언어는 무엇인가요?      index 4
+# A. Python B. Java C. JavaScript D. C++ E. 기타         index 5
+# 당신의 답변 : E
+
+list_polls = ["1. 컴퓨터 운영체제에 대한 선호도는 어떠신가요?"
+            ,"A. Windows B. macOS C. Linux D. Chrome OS E. 기타"
+            ,"2. 주로 사용하는 프로그래밍 언어는 무엇인가요?"
+            ,"A. Python B. Java C. JavaScript D. C++ E. 기타"
+            ,"3. 개발자에게 인기 있는 프로그래밍 언어는 무엇인가요?"
+            ,"A. Python B. Java C. JavaScript D. C++ E. 기타"
+            ]
+
+
+for num_count in [0, 2, 4] :
+    str_content = list_polls[num_count]
+    print("{}".format(str_content))
+    print("-------------------------")
+    pass
 print("End Program!")

@@ -1,10 +1,9 @@
-# # 1. 컴퓨터 운영체제에 대한 선호도는 어떠신가요?
-# # A. Windows B. macOS C. Linux D. Chrome OS E. 기타
-
-# # 2. 주로 사용하는 프로그래밍 언어는 무엇인가요?
-# # A. Python B. Java C. JavaScript D. C++ E. 기타
-# # 3. 개발자에게 인기 있는 프로그래밍 언어는 무엇인가요?
-# # A. Python B. Java C. JavaScript D. C++ E. 기타
+# 1. 컴퓨터 운영체제에 대한 선호도는 어떠신가요?
+# A. Windows B. macOS C. Linux D. Chrome OS E. 기타
+# 2. 주로 사용하는 프로그래밍 언어는 무엇인가요?
+# A. Python B. Java C. JavaScript D. C++ E. 기타
+# 3. 개발자에게 인기 있는 프로그래밍 언어는 무엇인가요?
+# A. Python B. Java C. JavaScript D. C++ E. 기타
 
 # # 두개 이상 변수 사용 출력 with 변수
 # str_question = "1. 컴퓨터 운영체제에 대한 선호도는 어떠신가요?"

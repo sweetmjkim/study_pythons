@@ -1,4 +1,4 @@
-# 기본 if else 구문
+## 기본 if else 구문
 if True :
     pass
 elif True : 

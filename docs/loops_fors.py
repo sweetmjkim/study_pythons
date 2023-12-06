@@ -51,9 +51,22 @@ list_polls = ["1. 컴퓨터 운영체제에 대한 선호도는 어떠신가요?
             ]
 
 
+
+list_statistics = [0, 0, 0, 0, 0]   # 답항 만큼 0을 넣어줌
 for num_count in [0, 2, 4] :
-    str_content = list_polls[num_count]
-    print("{}".format(str_content))
+    # str_content = list_polls[num_count]
+    # print("{}".format(str_content))
+    str_question = list_polls[num_count]
+    print("{}".format(str_question))
+    str_anwser = list_polls[num_count+1]
+    print("{}".format(str_anwser))
+
+    str_question_result = input("당신의 답변(A-E를 순서 맞게 번호로 입력) : ")
+    num_question_result = int(str_question_result) # 문자를 숫자로 변환
+    index = num_question_result - 1 # index 위치값 적용
+    list_statistics[index]  = list_statistics[index] + 1 
+
     print("-------------------------")
     pass
+print("선호 답항 : {}" .format(list_statistics))
 print("End Program!")

@@ -20,6 +20,6 @@ if 5 > 2:
 print(numbers)
 
 if 5 > 2: # 묶음 기호인 : 과 tab은 하나에 쌍
-    pass # 디버깅할때 유용하다.
+    pass # 디버깅할때 유용하다. pass문 : 아무 동작은 하지않지만 나중에 코드 추가 및 구조를 확인 할때 사용하는 빈 문장 
     print("Five is greater than two!")
     print("end")

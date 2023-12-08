@@ -15,3 +15,4 @@ for number in num_number :
     pass
     print("{}*{} = {}".format(num_timestable, number, result))
 print("구구단 5단 완성!")
+

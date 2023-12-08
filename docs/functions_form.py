@@ -19,5 +19,5 @@ def printQuestion_and_anwser() :
     print (str_anyone)
 
     return 0
-# printQuestion_and_anwser()
-# printQuestion_and_anwser()
+printQuestion_and_anwser()
+printQuestion_and_anwser()

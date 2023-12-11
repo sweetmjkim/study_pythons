@@ -2,7 +2,7 @@
 def add(first, second) : # 호출시 변수에 값이 활당됨.
     sum = first + second    #상수값을 쓰지않는다. 변수값을 넣는다.
     # return = 0
-    return sum
+    return sum # 상수 대신 변수 사용
     
 first = 5
 second = 4

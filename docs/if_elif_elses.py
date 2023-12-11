@@ -46,4 +46,28 @@ elif my_score > 80 : # 80점 초과 : B
 else :  # 나머지는 : F
     pass
     print("{}은 80점 이하이므로 F 학점.".format(my_score))
+
+# 부등호 사용시 결과는 True or False(boolean)
+# 논리 연산자(True or False 대한 결과값)
+first = 200
+second = 33
+third = 500
+# condiction 사용 이전에 각각 결과 확인
+first > second
+# True
+third > first
+# True
+(first > second) and (third > first)
+# True
+if (first > second) and (third > first) :
+    print("both conditions are Trye")
+
+if not (first < second) :
+    print("not (first < second)")
+# False
+pass
+
+
+
+
 print("End Program!")

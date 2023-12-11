@@ -4,20 +4,28 @@
 class Arithmetic:
     def __init__(self) :    # 생성자
         pass
+    
+    def add(self, first, second) :
+        add_result = first + second
+        return add_result
 
     def minus(self, first, second) : 
-        result = first - second
-        return result
+        minus_result = first - second
+        return minus_result
 
     def multiply(self, first, second) :   
-        sum = first * second
-        return sum
+        multiply_result = first * second
+        return multiply_result
     
-    def division(self, first, second) :   # self 키워드 필요(class 소속 확인용)
-        sum = first / second
-        return sum
+    def division(self, first, second) : 
+        division_result = first / second 
+        return division_result
 
+first1 = int(input("첫번째 : "))
+second2 = int(input("두번째 : "))
 arithmetics = Arithmetic()
-print(arithmetics.minus(10, 5))
-print(arithmetics.multiply(10, 5))
-print(arithmetics.division(10, 5))
+print("{}" .format(arithmetics.add(first1, second2)))
+print("{}" .format(arithmetics.minus(first1, second2)))
+print("{}" .format(arithmetics.multiply(first1, second2)))
+print("{}" .format(arithmetics.division(first1, second2)))
+num_A,num_B = map(int, input().split())

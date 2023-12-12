@@ -12,6 +12,7 @@ class Class_name:
         pass
         return 0
 
+# 예시
 class Person:
     def add_age(self) :
         pass

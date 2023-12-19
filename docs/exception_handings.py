@@ -22,6 +22,19 @@ except :
 finally :
     pass        # try나 except이 끝난 후 무조건 실행 코드
 
-
 print("{} = {} * {}".format(result, num_first, num_second))
 pass
+
+
+# function in try exception                             function화를 하기위해서는 먼저 결과를 생각하고 입력을 생각한다.
+def mutiply_withexception(num_first, num_second) : 
+    try :
+        result = num_first / num_second
+        pass        # 업무 코드
+    except :
+        result = int(num_first) / int(num_second)
+        pass        # 업무 코드 문제 발생 시 대처 코드
+    finally :
+        pass        # try나 except이 끝난 후 무조건 실행 코드
+    pass    # 내용 넣기
+    return result

@@ -4,16 +4,14 @@ def add(first, second) : # 호출시 변수에 값이 활당됨.
     # return = 0
     return sum # 상수 대신 변수 사용
     
-first = 5
-second = 4
-# num_sum = 0
-num_sum = add(5, 4)     # 상수 parameters 사용
-print("add() return 결과 : {} ". format(num_sum))
-
-third = 6
-fourth = 10
-num_sum = add(third, fourth)    # function 부르면 값들만 전달함.
-print("add() return 결과 : {} ". format(num_sum))
+if __name__ == "__main__" :
+     # num_sum = 0
+     num_sum = add(5, 4)     # 상수 parameters 사용
+     print("add() return 결과 : {} ". format(num_sum))
+     third = 6
+     fourth = 10
+     num_sum = add(third, fourth)    # function 부르면 값들만 전달함.
+     print("add() return 결과 : {} ". format(num_sum))
 
 # 내 점수를 넣으면 학점이 나오는 function
 def return_grade(my_score) :    # 자신을 불렀을 때 값들 들어감.(순서 매칭)
@@ -26,8 +24,9 @@ def return_grade(my_score) :    # 자신을 불렀을 때 값들 들어감.(순�
          my_grade = "C"
     return  my_grade
 
-# str_grade = return_grade(99) # 호출 시 값들이 넘어감(순서 매칭)
-# print("당신의 학점은 : {}".format(str_grade))
-my_score = 88
-str_grade = return_grade(my_score)
-print("당신의 학점은 : {}".format(str_grade))
+if __name__ == "__main__" :
+     # str_grade = return_grade(99) # 호출 시 값들이 넘어감(순서 매칭)
+     # print("당신의 학점은 : {}".format(str_grade))
+     my_score = 88
+     str_grade = return_grade(my_score)
+     print("당신의 학점은 : {}".format(str_grade))

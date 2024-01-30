@@ -69,3 +69,16 @@ print("당신의 학점은 : {}".format(str_grade))
 
 # 변수 : 하나, 묶음         변수 전체를 묶으면 function이다. 재사용을 할려면 function이라는걸 고려해야한다.
 # 구문 : 
+
+for i in [] :
+    print
+    
+number = 0
+marks = [90, 25, 67, 45, 80]   
+for mark in marks :
+    number = number +1
+    if mark >= 60 :
+        print("{}번 학생은 합격입니다.".format(number))
+    else :
+        print("{}번 학생은 불합격입니다.".format(number))
+    
